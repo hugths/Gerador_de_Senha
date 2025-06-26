@@ -67,6 +67,7 @@ body{
 }
 
 .parametro-titulo{
+    
     font-family: var(--roboto-mono);
     font-size: 28px;
 }
@@ -80,9 +81,14 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.parametro-senha{
-    width: 50%;
-    margin: 0 auto;
+        .parametro-senha-botoes{
+            widht: 50px;
+            margin: 0 auto;
+        }
+.parametro-senha-botoes{
+     display:flex;
+     justify-content: center;
+
 }
 
 @media screen and (min-width: 768px) {
