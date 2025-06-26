@@ -81,10 +81,12 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-        .parametro-senha-botoes{
-            widht: 50px;
-            margin: 0 auto;
-        }
+
+.parametro-senha{
+    width: 50p%;
+    margin: 0 auto;
+}
+
 .parametro-senha-botoes{
      display:flex;
      justify-content: center;
